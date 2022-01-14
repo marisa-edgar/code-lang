@@ -36,93 +36,93 @@ $(document).ready(function(){
   });
 
   $("#form3").submit(function(event){
-    const page3 = $("input:radio[name=page3]").val();
+    const pageThree = $("input:radio[name=page3]").val();
     event.preventDefault();
     $(".page3").hide();
     $(".page4").show();
 
-    if (page3 === "1") {
+    if (pageThree === "1") {
       total  ++;
-    } else if (page3 === "2") {
+    } else if (pageThree === "2") {
       total += 2;
     };
   });
 
   $("#form4").submit(function(event){
-    const page4 = $("input:radio[name=page4]").val();
+    const pageFour = $("input:radio[name=page4]").val();
     event.preventDefault();
     $(".page4").hide();
     $(".page5").show();
 
-    if (page4 === "1") {
+    if (pageFour === "1") {
       total  ++;
-    } else if (page4 === "2") {
+    } else if (pageFour === "2") {
       total += 2;
     };
   });
 
   $("#form5").submit(function(event){
-    const page5 = $("input:radio[name=page5]").val();
+    const pageFive = $("input:radio[name=page5]").val();
     event.preventDefault();
     $(".page5").hide();
     $(".page6").show();
 
-    if (page5 === "1") {
+    if (pageFive === "1") {
       total  ++;
-    } else if (page5 === "2") {
+    } else if (pageFive === "2") {
       total += 2;
     };
   });
 
-  $("#form2").submit(function(event){
-    const page2 = $("input:radio[name=page2]").val();
-    event.preventDefault();
-    $(".page2").hide();
-    $(".page3").show();
+//   $("#form2").submit(function(event){
+//     const page2 = $("input:radio[name=page2]").val();
+//     event.preventDefault();
+//     $(".page2").hide();
+//     $(".page3").show();
 
-    if (page2 === "1") {
-      total  ++;
-    } else if (page2 === "2") {
-      total += 2;
-    };
-  });
+//     if (page2 === "1") {
+//       total  ++;
+//     } else if (page2 === "2") {
+//       total += 2;
+//     };
+//   });
 
-  $("#form3").submit(function(event){
-    const page3 = $("input:radio[name=page3]").val();
-    event.preventDefault();
-    $(".page3").hide();
-    $(".page4").show();
+//   $("#form3").submit(function(event){
+//     const page3 = $("input:radio[name=page3]").val();
+//     event.preventDefault();
+//     $(".page3").hide();
+//     $(".page4").show();
 
-    if (page3 === "1") {
-      total  ++;
-    } else if (page3 === "2") {
-      total += 2;
-    };
-  });
+//     if (page3 === "1") {
+//       total  ++;
+//     } else if (page3 === "2") {
+//       total += 2;
+//     };
+//   });
 
-  $("#form4").submit(function(event){
-    const page4 = $("input:radio[name=page4]").val();
-    event.preventDefault();
-    $(".page4").hide();
-    $(".page5").show();
+//   $("#form4").submit(function(event){
+//     const page4 = $("input:radio[name=page4]").val();
+//     event.preventDefault();
+//     $(".page4").hide();
+//     $(".page5").show();
 
-    if (page4 === "1") {
-      total  ++;
-    } else if (page4 === "2") {
-      total += 2;
-    };
-  });
+//     if (page4 === "1") {
+//       total  ++;
+//     } else if (page4 === "2") {
+//       total += 2;
+//     };
+//   });
 
-  $("#form5").submit(function(event){
-    const page5 = $("input:radio[name=page5]").val();
-    event.preventDefault();
-    $(".page5").hide();
-    $(".page6").show();
+//   $("#form5").submit(function(event){
+//     const page5 = $("input:radio[name=page5]").val();
+//     event.preventDefault();
+//     $(".page5").hide();
+//     $(".page6").show();
 
-    if (page5 === "1") {
-      total  ++;
-    } else if (page5 === "2") {
-      total += 2;
-    };
-  });
+//     if (page5 === "1") {
+//       total  ++;
+//     } else if (page5 === "2") {
+//       total += 2;
+//     };
+  // });
 });
