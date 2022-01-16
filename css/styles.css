@@ -1,3 +1,9 @@
+.jumbotron {
+  font-family:'Courier New', Courier, monospace;
+  text-align:center;
+  
+}
+
 .page1 {
   display:none;
 }
@@ -42,6 +48,22 @@
   display:none;
 }
 
+.page4-5 {
+  display:none;
+}
+
+.page4-6 {
+  display:none;
+}
+
+.page4-7 {
+  display:none;
+}
+
+.page4-8 {
+  display:none;
+}
+
 .page5-1 {
   display:none;
 }
@@ -51,6 +73,22 @@
 }
 
 .page5-3 {
+  display:none;
+}
+
+.page5-4 {
+  display:none;
+}
+
+.page5-5 {
+  display:none;
+}
+
+.page5-6 {
+  display:none;
+}
+
+.page5-7 {
   display:none;
 }
 
