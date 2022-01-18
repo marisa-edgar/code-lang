@@ -107,7 +107,7 @@ $(document).ready(function(){
       total ++;
       $(".page5-1").show();
     } else if (fourOne === "2") {
-      total += 2;
+      total ++;
       $(".page5-1").show();
     };
   });
@@ -117,10 +117,10 @@ $(document).ready(function(){
     event.preventDefault();
     $(".page4-2").hide();
     if (fourTwo === "1") {
-      total ++;
+      total += 50;
       $(".page5-2").show();
     } else if (fourTwo === "2") {
-      total += 2;
+      total += 50;
       $(".page5-2").show();
     };
   });
@@ -130,10 +130,10 @@ $(document).ready(function(){
     event.preventDefault();
     $(".page4-3").hide();
     if (fourThree === "1") {
-      total ++;
+      total += 150;
       $(".page5-3").show();
     } else if (fourThree === "2") {
-      total += 2;
+      total += 150;
       $(".page5-3").show();
     };
   });
@@ -143,10 +143,10 @@ $(document).ready(function(){
     event.preventDefault();
     $(".page4-4").hide();
     if (fourFour === "1") {
-      total ++;
+      total += 300;
       $(".page5-4").show();
     } else if (fourFour === "2") {
-      total += 2;
+      total += 300;
       $(".page5-4").show();
     };
   });
@@ -157,24 +157,20 @@ $(document).ready(function(){
     event.preventDefault();
     $(".page5-1").hide();
     if (fiveOne === "1") {
-      total += 100;
-      if (total <= 200) {
+      if (total <= 20) {
         return $("#output1").show();
-      } else if (total >= 200) {
+      } else if (total >= 70) {
         return $("#output2").show();
-      } else if (total >= 300) {
+      } else if (total >= 170) {
         return $("#output3").show();
       } else {
         return $("#output4").show();
       };
     } else {
-      total +=50
-      if (total <= 200) {
+      if (total <= 20) {
         return $("#output1").show();
-      } else if (total >= 200) {
+      } else if (total >= 70) {
         return $("#output2").show();
-      } else if (total >= 300) {
-        return $("#output3").show();
       } else {
         return $("#output4").show();
       };
@@ -186,24 +182,20 @@ $(document).ready(function(){
     event.preventDefault();
     $(".page5-2").hide();
     if (fiveTwo === "1") {
-      total += 200;
-      if (total <= 200) {
+      if (total <= 20) {
         return $("#output1").show();
-      } else if (total >= 200) {
+      } else if (total >= 70) {
         return $("#output2").show();
-      } else if (total >= 300) {
+      } else if (total >= 150) {
         return $("#output3").show();
       } else {
         return $("#output4").show();
       };
     } else {
-      total +=50
-      if (total <= 200) {
+      if (total <= 20) {
         return $("#output1").show();
-      } else if (total >= 200) {
+      } else if (total >= 70) {
         return $("#output2").show();
-      } else if (total >= 300) {
-        return $("#output3").show();
       } else {
         return $("#output4").show();
       };
@@ -215,24 +207,18 @@ $(document).ready(function(){
     event.preventDefault();
     $(".page5-3").hide();
     if (fiveThree === "1") {
-      total += 300;
-      if (total <= 200) {
+      if (total <= 20) {
         return $("#output1").show();
-      } else if (total >= 200) {
+      } else if (total >= 70) {
         return $("#output2").show();
-      } else if (total >= 300) {
-        return $("#output3").show();
       } else {
         return $("#output4").show();
       };
     } else {
-      total +=50
-      if (total <= 200) {
+      if (total <= 20) {
         return $("#output1").show();
-      } else if (total >= 200) {
+      } else if (total >= 70) {
         return $("#output2").show();
-      } else if (total >= 300) {
-        return $("#output3").show();
       } else {
         return $("#output4").show();
       };
@@ -244,24 +230,18 @@ $(document).ready(function(){
     event.preventDefault();
     $(".page5-4").hide();
     if (fiveFour === "1") {
-      total += 1;
-      if (total <= 200) {
+      if (total <= 20) {
         return $("#output1").show();
-      } else if (total >= 200) {
+      } else if (total >= 70) {
         return $("#output2").show();
-      } else if (total >= 300) {
-        return $("#output3").show();
       } else {
         return $("#output4").show();
       };
     } else {
-      total +=10
-      if (total <= 200) {
+      if (total <= 20) {
         return $("#output1").show();
-      } else if (total >= 200) {
+      } else if (total >= 70) {
         return $("#output2").show();
-      } else if (total >= 300) {
-        return $("#output3").show();
       } else {
         return $("#output4").show();
       };
