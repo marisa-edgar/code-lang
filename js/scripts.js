@@ -1,7 +1,7 @@
 $(document).ready(function(){
   let total= 0;
   $("#form").submit(function(event){
-    const name =$("name").val();
+    const name =$("#name").val();
     event.preventDefault();
     $(".page").hide();
     $(".page1").show();

@@ -1,7 +1,12 @@
 .jumbotron {
+  background-color: black;
   font-family:'Courier New', Courier, monospace;
   text-align:center;
-  
+}
+
+.banner {
+  width: 800px;
+  height: 300px;
 }
 
 .page1 {
