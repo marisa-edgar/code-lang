@@ -92,15 +92,15 @@ $(document).ready(function(){
     $(".page3-4").hide();
     if (threeFour === "1") {
       total ++;
-      $(".page4-7").show();
+      $(".page4-4").show();
     } else if (threeFour === "2") {
       total += 2;
-      $(".page4-8").show();
+      $(".page4-4").show();
     };
   });
 
-  $("#form4.1").submit(function(event){
-    const fourOne = $("input:radio[name=page4.1]:checked").val();
+  $("#form4-1").submit(function(event){
+    const fourOne = $("input:radio[name=page4-1]:checked").val();
     event.preventDefault();
     $(".page4-1").hide();
     if (fourOne === "1") {
@@ -112,8 +112,8 @@ $(document).ready(function(){
     };
   });
 
-  $("#form4.2").submit(function(event){
-    const fourTwo = $("input:radio[name=page4.2]:checked").val();
+  $("#form4-2").submit(function(event){
+    const fourTwo = $("input:radio[name=page4-2]:checked").val();
     event.preventDefault();
     $(".page4-2").hide();
     if (fourTwo === "1") {
@@ -125,8 +125,8 @@ $(document).ready(function(){
     };
   });
 
-  $("#form4.3").submit(function(event){
-    const fourThree = $("input:radio[name=page4.3]:checked").val();
+  $("#form4-3").submit(function(event){
+    const fourThree = $("input:radio[name=page4-3]:checked").val();
     event.preventDefault();
     $(".page4-3").hide();
     if (fourThree === "1") {
@@ -138,8 +138,8 @@ $(document).ready(function(){
     };
   });
 
-  $("#form4.4").submit(function(event){
-    const fourFour = $("input:radio[name=page4.4]:checked").val();
+  $("#form4-4").submit(function(event){
+    const fourFour = $("input:radio[name=page4-4]:checked").val();
     event.preventDefault();
     $(".page4-4").hide();
     if (fourFour === "1") {
@@ -152,56 +152,123 @@ $(document).ready(function(){
   });
 
 
-  $("#form5.1").submit(function(event){
-    const fiveOne = $("input:radio[name=page5.1]:checked").val();
+  $("#form5-1").submit(function(event){
+    const fiveOne = $("input:radio[name=page5-1]:checked").val();
     event.preventDefault();
     $(".page5-1").hide();
     if (fiveOne === "1") {
-      total ++;
-      $(".page6-1").show();
-    } else if (fiveOne === "2") {
-      total += 2;
-      $(".page6-1").show();
+      total += 100;
+      if (total <= 200) {
+        return $("#output1").show();
+      } else if (total >= 200) {
+        return $("#output2").show();
+      } else if (total >= 300) {
+        return $("#output3").show();
+      } else {
+        return $("#output4").show();
+      };
+    } else {
+      total +=50
+      if (total <= 200) {
+        return $("#output1").show();
+      } else if (total >= 200) {
+        return $("#output2").show();
+      } else if (total >= 300) {
+        return $("#output3").show();
+      } else {
+        return $("#output4").show();
+      };
     };
   });
 
-  $("#form5.2").submit(function(event){
-    const fiveTwo = $("input:radio[name=page5.2]:checked").val();
+  $("#form5-2").submit(function(event){
+    const fiveTwo = $("input:radio[name=page5-2]:checked").val();
     event.preventDefault();
     $(".page5-2").hide();
     if (fiveTwo === "1") {
-      total ++;
-      $(".page6-2").show();
-    } else if (fiveTwo === "2") {
-      total += 2;
-      $(".page6-2").show();
+      total += 200;
+      if (total <= 200) {
+        return $("#output1").show();
+      } else if (total >= 200) {
+        return $("#output2").show();
+      } else if (total >= 300) {
+        return $("#output3").show();
+      } else {
+        return $("#output4").show();
+      };
+    } else {
+      total +=50
+      if (total <= 200) {
+        return $("#output1").show();
+      } else if (total >= 200) {
+        return $("#output2").show();
+      } else if (total >= 300) {
+        return $("#output3").show();
+      } else {
+        return $("#output4").show();
+      };
     };
   });
 
-  $("#form5.3").submit(function(event){
-    const fiveThree = $("input:radio[name=page5.3]:checked").val();
+  $("#form5-3").submit(function(event){
+    const fiveThree = $("input:radio[name=page5-3]:checked").val();
     event.preventDefault();
     $(".page5-3").hide();
     if (fiveThree === "1") {
-      total ++;
-      $(".page6-3").show();
-    } else if (fiveThree === "2") {
-      total += 2;
-      $(".page6-3").show();
+      total += 300;
+      if (total <= 200) {
+        return $("#output1").show();
+      } else if (total >= 200) {
+        return $("#output2").show();
+      } else if (total >= 300) {
+        return $("#output3").show();
+      } else {
+        return $("#output4").show();
+      };
+    } else {
+      total +=50
+      if (total <= 200) {
+        return $("#output1").show();
+      } else if (total >= 200) {
+        return $("#output2").show();
+      } else if (total >= 300) {
+        return $("#output3").show();
+      } else {
+        return $("#output4").show();
+      };
     };
   });
 
-  $("#form5.4").submit(function(event){
-    const fiveFour = $("input:radio[name=page5.4]:checked").val();
+  $("#form5-4").submit(function(event){
+    const fiveFour = $("input:radio[name=page5-4]:checked").val();
     event.preventDefault();
     $(".page5-4").hide();
     if (fiveFour === "1") {
-      total ++;
-      $(".page6-4").show();
-    } else if (fiveFour === "2") {
-      total += 2;
-      $(".page6-4").show();
+      total += 1;
+      if (total <= 200) {
+        return $("#output1").show();
+      } else if (total >= 200) {
+        return $("#output2").show();
+      } else if (total >= 300) {
+        return $("#output3").show();
+      } else {
+        return $("#output4").show();
+      };
+    } else {
+      total +=10
+      if (total <= 200) {
+        return $("#output1").show();
+      } else if (total >= 200) {
+        return $("#output2").show();
+      } else if (total >= 300) {
+        return $("#output3").show();
+      } else {
+        return $("#output4").show();
+      };
     };
+  });
+  $(".restart").submit(function(){
+
   });
 
 });
