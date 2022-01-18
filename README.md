@@ -33,6 +33,6 @@ _Enter your name and choose your path through Jewish folklore to discover the co
 
 _Any questions or concerns contact Marisa Edgar at marisaedgar1212@gmail.com_
 
-
+MIT
 
 Copyright (c) _2022_ _Marisa Edgar_
