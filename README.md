@@ -19,7 +19,7 @@ _Enter your name and choose your path through Jewish folklore to discover the co
 
 * _Code editor required (such as Visual Studio Code and Github account)._
 * _Create and navigate to directory in the terminal on your local machine.
-* _Run 'git clone(https://github.com/marisa-edgar/code-lang)from the terminal to clone the project directory._
+* _Run 'git clone (https://github.com/marisa-edgar/code-lang) from the terminal to clone the project directory._
 * _Open in command line using "code ."_
 * _Open HTML in your browser_
 * _Follow prompts and enjoy!_
