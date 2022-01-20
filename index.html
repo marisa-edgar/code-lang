@@ -7,296 +7,270 @@
     <script src="js/scripts.js"></script>
     <title>Coding Language Quiz</title>
   </head>
-<body>
-  <div class="container">
-    <div class="background1">
-      <div class="jumbotron">
-        <img src="img/TDOBM_Banner.png" alt="the death of bubbe malke banner" class="banner">
+  <body>
+    <div class="container">
+        <div class="jumbotron">
+          <img src="img/TDOBM_Banner.png" alt="the death of bubbe malke banner" class="banner">
+        </div>
+        <div class="page">
+          <form id="form">
+          <label for="name">You are the Rabbi of a small village in Eastern Europe. The year is 1884, enter your last name.</label>
+          <input id="name" class="form-control" type="text" required/><br>
+          <button type="submit" class="btn-dark">Submit</button>
+          </form>
+        </div>
+      <div class="page1">
+        <p>You are Rabbi <span class="insertName"></span>. Recently, your dearest Bubbe Malke has died. When she passed from this world to the next, G-d bless her soul, she was mourned by the entire Shtetl. A pious woman, widowed in her early 30’s, she spent the latter half of her life in near solitude. You are the spiritual leader of nearly two hundred Jews living in this small village in Eastern Europe, but for the seven days after the death of Bubbe Malke, bless her memory, you’ve been lost for hours each day staring at a covered mirror as soft murmurs from the wind stirred into the your thoughts.</p><br>
+        <p>Bubbe Malke lived in a small cottage on the south side of the town. She raised her son, a leather worker, with Talmud in hand. He was married young, and raised a family of 8, you: Rabbi { } among them. Do you remember when you made the whole town proud by traveling to Breslov for years to study with Rebbe Nachman himself.</p><br>
+        <p>The men of the village huddled inside the Synagogue on the Shabbos following the seven days of silence, but the voices continued to stir in your head louder than ever. Starting to get light headed, do you:
+          </p><br>
+        <form id="form1">
+          <label for="page1">Continue the Sermon, ignoring the voices,</label>
+          <input type="radio" name="page1" value="1"><br>
+          <p>or</p>
+          <label for="page1">Ask lay leadership to take over, and investigate them?</label>
+          <input type="radio" name="page1" value="2"><br>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
       </div>
-      <div class="page">
-        <form id="form">
-        <label for="name">You are the Rabbi of a small village in Eastern Europe. The year is 1884, enter your last name.</label>
-        <input id="name" class="form-control" type="text" required/><br>
-        <button type="submit" class="btn-dark">Submit</button>
-      </form>
+      <div class="page2-1">
+        <p>Continuing the Sermon, and ignoring the voices, you remain calm and attentive as the congregation sways in song. The Cantor of the town, Reb Chaime, enchants everyone with Niggun Neshama, and they leave the Synagogue feeling refreshed, and ready for a meal with their families. You’re walking home when suddenly a terrible cold sweeps in. Looking around for someone to kvetch with, there is no one around. Do you:
+        </p><br>
+        <form id="form2-1">
+          <label for="page2-1">Continue home, to rest,</label>
+          <input type="radio" name="page2-1" value="1"><br>
+          <label for="page2-1">Break with tradition feeling the sudden urge to sort documents in Bubbe Malke’s home?</label>
+          <input type="radio" name="page2-1" value="2"><br>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
       </div>
-    </div>
-
-    <div class="page1">
-      <p>You are Rabbi <span class="insertName"></span>. Recently, your dearest Bubbe Malke has died. When she passed from this world to the next, G-d bless her soul, she was mourned by the entire Shtetl. A pious woman, widowed in her early 30’s, she spent the latter half of her life in near solitude. You are the spiritual leader of nearly two hundred Jews living in this small village in Eastern Europe, but for the seven days after the death of Bubbe Malke, bless her memory, you’ve been lost for hours each day staring at a covered mirror as soft murmurs from the wind stirred into the your thoughts.</p><br>
-      <p>Bubbe Malke lived in a small cottage on the south side of the town. She raised her son, a leather worker, with Talmud in hand. He was married young, and raised a family of 8, you: Rabbi { } among them. Do you remember when you made the whole town proud by traveling to Breslov for years to study with Rebbe Nachman himself.</p><br>
-      <p>The men of the village huddled inside the Synagogue on the Shabbos following the seven days of silence, but the voices continued to stir in your head louder than ever. Starting to get light headed, do you:
-        </p><br>
-      <form id="form1">
-        <label for="page1">Continue the Sermon, ignoring the voices,</label>
-        <input type="radio" name="page1" value="1"><br>
-        <p>or</p>
-        <label for="page1">Ask lay leadership to take over, and investigate them?</label>
-        <input type="radio" name="page1" value="2"><br>
-        <button type="submit" class="btn-dark">Submit</button>
-      </form>
-    </div>
-
-    <div class="page2-1">
-      <p>Continuing the Sermon, and ignoring the voices, you remain calm and attentive as the congregation sways in song. The Cantor of the town, Reb Chaime, enchants everyone with Niggun Neshama, and they leave the Synagogue feeling refreshed, and ready for a meal with their families. You’re walking home when suddenly a terrible cold sweeps in. Looking around for someone to kvetch with, there is no one around. Do you:
-      </p><br>
-      <form id="form2-1">
-        <label for="page2-1">Continue home, to rest,</label>
-        <input type="radio" name="page2-1" value="1"><br>
-        <label for="page2-1">Break with tradition feeling the sudden urge to sort documents in Bubbe Malke’s home?</label>
-        <input type="radio" name="page2-1" value="2"><br>
-        <button type="submit" class="btn-dark">Submit</button>
-      </form>
-    </div>
-
-    <div class="page2-2">
-      <p>After the impulse to leave the Synagogue finally drives you outside, the voices in the wind begin echoing louder and louder, until it becomes difficult to see clearly. Your legs seem to move on their own as the sudden feeling of discomfort begins to move you towards Bubbe Malke’s home on the far side of the village. When you try to fight the feeling, a terrible pain erupts in your stomach, “Oy Vey! My Stomach!” you shout, as you turn again towards Bubbe Malke’s home.</p><br>
-      <p>Upon entering, you hear a loud thumping sound from the mantle above the fireplace. There is no light in the room. Your fingers ache as you stop to contemplate what to do next, do you:
-        </p><br>
-      <form id="form2-2">
-        <label for="page2-2">Let the pain subside and reach towards the box at the center of the mantle?</label>
-        <input type="radio" name="page2-2" value="1"><br>
-        <p>or</p>
-        <label for="page2-2">Fight the pain, and attempt to leave?</label>
-        <input type="radio" name="page2-2" value="2"><br>
-        <button type="submit" class="btn-dark">Submit</button>
-      </form>
-    </div>
-
-    <div class="page3-1">
-      <p>When you arrive home, the lamps are already lit, with just the right amount of oil to give you some time to study Torah. The voices in your head have subsided, but there is something else under the surface that you can’t quite place. Your attention span is shorter, and you can’t seem to shake the feeling that someone needs you.</p><br>
-      <p>Usually if there is a need, no one in the town would hesitate to knock on your door, regardless of the hour, knowing that you would attend to their needs immediately, but this was different. Like someone was lost, and calling out to you with their mind, their spirit.</p><br>
-      <p>As you begin to refresh yourself on the daily Parashah, the story of Yaakov’s betrayal by Rachel’s father, your vision becomes blurry, and you begin to weep, almost damaging the thin paper of your Chumash. As the sensation becomes worse, do you
-        </p><br>
-      <form id="form3-1">
-        <label for="page3-1">Stand up and begin searching the woods nearby for someone in need?</label>
-        <input type="radio" name="page3-1" value="1"><br>
-        <p>or</p>
-        <label for="page3-1">Carefully close your book and attempt to sleep?</label>
-        <input type="radio" name="page3-1" value="2"><br>
-        <button type="submit" class="btn-dark">Submit</button>
-      </form>
-    </div>
-
-    <div class="page3-2">
-      <p>The overwhelming sensation and need to enter Bubbe Malke’s home immediately strikes you as a cause for concern. Nevertheless, the urge is too powerful to resist. Upon entering her home, you hear a small voice in the corner of the room, and a thumping on the mantle of the fireplace.</p><br>
-      <p>The voice is repeating over and over again, some distant phrase from Galician Yiddish, a dialect you are unfamiliar with, and as the second pass, you feel an unbearable hunger sweep over you. The thumping is synchronized with your heart’s beating, giving you a terrible frightful sweat.</p><br>
+      <div class="page2-2">
+        <p>After the impulse to leave the Synagogue finally drives you outside, the voices in the wind begin echoing louder and louder, until it becomes difficult to see clearly. Your legs seem to move on their own as the sudden feeling of discomfort begins to move you towards Bubbe Malke’s home on the far side of the village. When you try to fight the feeling, a terrible pain erupts in your stomach, “Oy Vey! My Stomach!” you shout, as you turn again towards Bubbe Malke’s home.</p><br>
+        <p>Upon entering, you hear a loud thumping sound from the mantle above the fireplace. There is no light in the room. Your fingers ache as you stop to contemplate what to do next, do you:
+          </p><br>
+        <form id="form2-2">
+          <label for="page2-2">Let the pain subside and reach towards the box at the center of the mantle?</label>
+          <input type="radio" name="page2-2" value="1"><br>
+          <p>or</p>
+          <label for="page2-2">Fight the pain, and attempt to leave?</label>
+          <input type="radio" name="page2-2" value="2"><br>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
+      <div class="page3-1">
+        <p>When you arrive home, the lamps are already lit, with just the right amount of oil to give you some time to study Torah. The voices in your head have subsided, but there is something else under the surface that you can’t quite place. Your attention span is shorter, and you can’t seem to shake the feeling that someone needs you.</p><br>
+        <p>Usually if there is a need, no one in the town would hesitate to knock on your door, regardless of the hour, knowing that you would attend to their needs immediately, but this was different. Like someone was lost, and calling out to you with their mind, their spirit.</p><br>
+        <p>As you begin to refresh yourself on the daily Parashah, the story of Yaakov’s betrayal by Rachel’s father, your vision becomes blurry, and you begin to weep, almost damaging the thin paper of your Chumash. As the sensation becomes worse, do you
+          </p><br>
+        <form id="form3-1">
+          <label for="page3-1">Stand up and begin searching the woods nearby for someone in need?</label>
+          <input type="radio" name="page3-1" value="1"><br>
+          <p>or</p>
+          <label for="page3-1">Carefully close your book and attempt to sleep?</label>
+          <input type="radio" name="page3-1" value="2"><br>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
+      <div class="page3-2">
+        <p>The overwhelming sensation and need to enter Bubbe Malke’s home immediately strikes you as a cause for concern. Nevertheless, the urge is too powerful to resist. Upon entering her home, you hear a small voice in the corner of the room, and a thumping on the mantle of the fireplace.</p><br>
+        <p>The voice is repeating over and over again, some distant phrase from Galician Yiddish, a dialect you are unfamiliar with, and as the second pass, you feel an unbearable hunger sweep over you. The thumping is synchronized with your heart’s beating, giving you a terrible frightful sweat.</p><br>
+          
+        <p>You realize that the hunger subsides slightly if you work your way towards the fireplace. In the moonlight you can see that Bubbe Malke placed a small wooden box with intricate Hebrew lettering carved into it.</p><br>
+          
+        <p>You make out the word Dybbuk, and almost instantly the whole of the event flashes before your eyes in a stream of clarity; however, the strength of the dark spirit is too strong. You feel pain in your fingers that only seem to relent when you place your fingers on the box’s complex locking mechanism. You know that what you do next will have significant repercussions on your life, do you:
+          </p><br>
+        <form id="form3-2">
+          <label for="page3-2">Take the box home for further study,</label>
+          <input type="radio" name="page3-2" value="1"><br>
+          <p>or</p>
+          <label for="page3-2">Attempt to unlock the box.</label>
+          <input type="radio" name="page3-2" value="2"><br>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
+      <div class="page3-3">
+        <p>Upon lifting the box from the mantle, an incredibly loud screeching sound echoes from outside the small home where Bubbe Malke once lived. It sounded like a rabbit in the slaughter, like pure fear. You drop the box with a sense of danger washing over you, like a cold rain.</p> 
+          <p>When the box hits the ground however, you succumb to intense pain over your entire body. The pain causes a seizure which only subsides once you touch the box again.</p> 
+          
+          <p>This time the Galician voice is louder and clearer, you hear the words “I am hungry” repeating and suddenly, you are hungry too. You open the box and it reveals a small knife, with Hebrew letters on it. The letters read Abraham, the name of your late Zayde, of blessed memory.</p> 
+          
+          <p>The pain reaches a fever pitch until you place the knife into your palm, you realize now that violence is the only salve for this hunger, do you:</p>
+        <form id="form3-3">
+          <label for="page3-3">Allow the hunger to lead you towards the village you love, or</label>
+          <input type="radio" name="page3-3" value="1"><br>
+          <label for="page3-3">Fight the urge and suffer in silence.</label>
+          <input type="radio" name="page3-3" value="2"><br>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
+      <div class="page3-4">
+        <p>When you begin to leave, knowing that something sinister and evil is coursing through the home of your sweet Bubbe Malke, you are frightened. You attempt to run, but trip over a rug and hit your head on the door.</p>
+        <p>The fall takes its toll on your body and mind immediately. A fog rises around you. You lose yourself in a hunger unlike anything you’ve ever experienced, and suddenly the room goes dark.</p>
         
-      <p>You realize that the hunger subsides slightly if you work your way towards the fireplace. In the moonlight you can see that Bubbe Malke placed a small wooden box with intricate Hebrew lettering carved into it.</p><br>
+        <p>When you open your eyes again, you are no longer you. You are not longer rabbi { }, rather the body of a young rabbi, with an enraged and nearly forgotten soul clawing into your psyche. You stand up. You walk towards the fireplace, and despite the darkness, with a deft hand unlock the small box which lay at its center.</p>
         
-      <p>You make out the word Dybbuk, and almost instantly the whole of the event flashes before your eyes in a stream of clarity; however, the strength of the dark spirit is too strong. You feel pain in your fingers that only seem to relent when you place your fingers on the box’s complex locking mechanism. You know that what you do next will have significant repercussions on your life, do you:
-        </p><br>
-      <form id="form3-2">
-        <label for="page3-2">Take the box home for further study,</label>
-        <input type="radio" name="page3-2" value="1"><br>
-        <p>or</p>
-        <label for="page3-2">Attempt to unlock the box.</label>
-        <input type="radio" name="page3-2" value="2"><br>
-        <button type="submit" class="btn-dark">Submit</button>
-      </form>
-    </div>
-
-    <div class="page3-3">
-      <p>Upon lifting the box from the mantle, an incredibly loud screeching sound echoes from outside the small home where Bubbe Malke once lived. It sounded like a rabbit in the slaughter, like pure fear. You drop the box with a sense of danger washing over you, like a cold rain.</p> 
-
-        <p>When the box hits the ground however, you succumb to intense pain over your entire body. The pain causes a seizure which only subsides once you touch the box again.</p> 
-        
-        <p>This time the Galician voice is louder and clearer, you hear the words “I am hungry” repeating and suddenly, you are hungry too. You open the box and it reveals a small knife, with Hebrew letters on it. The letters read Abraham, the name of your late Zayde, of blessed memory.</p> 
-        
-        <p>The pain reaches a fever pitch until you place the knife into your palm, you realize now that violence is the only salve for this hunger, do you:</p>
-      <form id="form3-3">
-        <label for="page3-3">Allow the hunger to lead you towards the village you love, or</label>
-        <input type="radio" name="page3-3" value="1"><br>
-        <label for="page3-3">Fight the urge and suffer in silence.</label>
-        <input type="radio" name="page3-3" value="2"><br>
-        <button type="submit" class="btn-dark">Submit</button>
-      </form>
-    </div>
-
-    <div class="page3-4">
-      <p>When you begin to leave, knowing that something sinister and evil is coursing through the home of your sweet Bubbe Malke, you are frightened. You attempt to run, but trip over a rug and hit your head on the door.</p>
-
-      <p>The fall takes its toll on your body and mind immediately. A fog rises around you. You lose yourself in a hunger unlike anything you’ve ever experienced, and suddenly the room goes dark.</p>
-      
-      <p>When you open your eyes again, you are no longer you. You are not longer rabbi { }, rather the body of a young rabbi, with an enraged and nearly forgotten soul clawing into your psyche. You stand up. You walk towards the fireplace, and despite the darkness, with a deft hand unlock the small box which lay at its center.</p>
-      
-      <p>Inside the smell the dust of death, of loss, of rage and you pick up the ring at the bottom of the box, it's only inhabitant, and slide it on your fingers. Next to the box is a metal candle holder. You pick it up, then you:</p>
-      <form id="form3-4">
-        <label for="page3-4">Go into the night with rage as your only guide, or</label>
-        <input type="radio" name="page3-4" value="1"><br>
-        <label for="page3-4">Attempt to harm yourself so that you don’t harm anyone else?</label>
-        <input type="radio" name="page3-4" value="2"><br>
-        <button type="submit" class="btn-dark">Submit</button>
-      </form>
-    </div>
-
-    <div class="page4-1">
-      <p>You get up feeling suddenly energized. Work is forbidden on shabbos, but a brisk walk certainly is not, so you feel perfectly at ease as you step into the chilly evening, and begin pressing into the woods. </p><br>
-      <p>After a few meters, your tzistzis get snagged on a small branch. This startels you, but not so much to derail you from your march deeper and deeper into the forest. </p><br>
-      <p>Almost as if you expected to find someone, you do. It is your youngest sister, soon to be married, crying softly to herself on a stump. Shocked by this discovery, you ask yourself, “what could be the matter?”</p><br>
-      <p>“Rikele mayn Tsiz, what is it, all this fuss?” you say, affectionately. She looks up, somehow knowing that you’d find her, and says “oh nothing could be worse Tatele.” A sarcastic statement, but after a few minutes the truth comes out. She is nervous about her upcoming wedding. </p><br>
-      <p>In this moment, you feel a sudden warmth inside you, as a melody from your youth wriggles its way to the forefront of your mind. Her wedding is just a few days away, but you know now, just what to sing. For now though, do you:
-        </p><br>
-      <form id="form4-1">
-        <label for="page4-1">Walk her to her home with your mother and father, and leave immediately to return and study for a few more minutes,</label>
-        <input type="radio" name="page4-1" value="1"><br>
-        <p>or</p>
-        <label for="page4-1">Stay with her for a while and have some tea?</label>
-        <input type="radio" name="page4-1" value="2"><br>
-        <button type="submit" class="btn-dark">Submit</button>
-      </form>
-    </div>
-
-    <div class="page4-2">
-      <p>Your attempt to break the lock is futile, so you end up bringing the box back to your home for further study anyways. As you hold the box you feel a comforting sensation wherever the wood touches you.
-
-        Your belly is full of butterflies as you cross the threshold to enter your home. You ignore the mezuzah on your door post, perhaps for the first time since you were a boy, with the excitement of the box willing you forward. 
-        
-        As you move towards the dining room to place the box down for study, you trip and hit your head on the corner of the table. Everything blurs and you find yourself waking up, a few hours later, with the box somehow on the top of the table. “Surely it must have fallen to the side like I did” you think.
-        
-        As you steady yourself the impulse to get rid of the box overwhelms you, do you:</p>
-      <form id="form4-2">
-        <label for="page4-2">Get rid of the box immediately, tossing it far down the gorge to the north of your home, or/label>
-        <input type="radio" name="page4-2" value="1"><br>
-        <label for="page4-2">Hold on to the box for continued research.</label>
-        <input type="radio" name="page4-2" value="2"><br>
-        <button type="submit" class="btn-dark">Submit</button>
-      </form>
-    </div>
-
-    <div class="page4-3">
-      <p>Despite the clear sense of your surroundings that you maintain, the overwhelming power of the Dybbuk forces you to your feet. You can smell the damp evening air, and feel the cold of the wind as you step into the night, but you can’t stop yourself from moving forward.
-
-        The sounds of the night whirl about, and as you slowly pace back and force, a villager, Shlomo Ribonowitz, wraps up an evening of celebration with a friend and drunkenly stumbles towards you. 
-        
-        “Our dear Rabbi, what could bring you out in this..” but before Shlomo could finish the sentence, you take the knife and stab it first into his belly, twisting the knife with a sick pleasure, and then slicing his throat, and watching him twitch with satisfaction.
-        
-        The rabbi beneath the knife, beneath the spell of the angry spirit weeps, as the rustling of another villager echoes just a few meters north. Do you:</p>
-      <form id="form4-3">
-        <label for="page4-3">Attack the villager and allow yourself to become completely possessed by the Dybbuk, or</label>
-        <input type="radio" name="page4-3" value="1"><br>
-        <label for="page4-3">Use every ounce of strength left inside you to plunge the knife into your own chest?</label>
-        <input type="radio" name="page4-3" value="2"><br>
-        <button type="submit" class="btn-dark">Submit</button>
-      </form>
-    </div>
-
-    <div class="page4-4">
-      <p>The cool night air washes over you like a refreshing glass of summer tea. Your sense of smell is heightened, and with clarity you determine who your targets are. Old friends, who have forgotten you. The children from your youth, now old and tired. 
-
-        You breathe softly and controlled as you enter the first home. The silent steps of a youthful body carry you towards your first victim. The sound of the candlestick cracking the skull of your old friend Benjamin fills you with pleasure and fear. 
-        
-        Not fear of getting caught, but fear of failure. You can see as clear as the day, despite the depth of darkness which has overtaken the Shtetl you once called you. 
-        
-        The thought of Malke’s death crosses your mind. The kaddish you couldn’t say. The tears you couldn’t shed. The horror and sadness mixes into pain and then erupts again as you strike the next villager, and the next, and the next. 
-        
-        The cries of children awakening to the sounds of skulls cracking and blood dripping awakens a few villagers who enter the night to see what happened. Do you:</p>
-      <form id="form4-4">
-        <label for="page4-4">Attack the villagers as soon as they enter your frame of sight, or</label>
-        <input type="radio" name="page4-4" value="1"><br>
-        <label for="page4-4">Attempt to hide and strike them from the shadows?</label>
-        <input type="radio" name="page4-4" value="2"><br>
-        <button type="submit" class="btn-dark">Submit</button>
-      </form>
-    </div>
-
-    <div class="page5-1">
-      <p>A few days later, as your sister is standing beneath the Huppa, you are overwhelmed with emotion. At first you are certain that you are simply happy for your sister and her new husband, but then you realize that the feeling is more than that.</p><br>
-      <p>You have heard of Ibbur’s, or the spirit of another burrowing into one’s body to carry out a good deed, before passing to the next life. Your Bubba Malke must have been the one to plant the melody in your mind a few nights before. It’s all so clear.</p><br>
-      <p>You are shaken from your reverie by the sound of broken glass, and as the congregation begins to sing, you take the lead chanting your bubbe’s favorite psalm, sung the old Galician way, and your sister’s eyes swell up again. </p><br>
-      <p></p>Bubbe Malke’s spirit moves out of your body, and all things are well in the world. </p><br>
-      <p>Based on the choices you’ve made so far in the story, there is definitely 1 computer coding language that is right for you! Click below to find out which one it is!</p><br>
-      <form id="form5-1">
-        <button type="submit" class="btn-dark">Find Out!</button>
-      </form>
-    </div>
-
-    <div class="page5-2">
-      <p>When you arrive at the top of the gorge to toss the box down, the soft embrace of a spirit takes hold of you, and you can no longer imagine life without this small possession, something that was clearly special to your dear Bubbe Malke, may she rest in peace. 
-
-        For the rest of your life, you hold on to the Dybbuk box. Nesting it gently atop your own mantle, but things begin to take a turn for the once treasured Rabbi { }, of this small Jewish village. 
-        
-        You start sleeping in at first, and then begin to forget to lay tefillin at least once a week. You lose track of your place during sermons, and trip down stairs. The injuries become so common, that you gabbi ends up leading the sermons most weeks. Your partner becomes ill, as does your first born. 
-        
-        Things are like that for a long time, little things getting in the way of a full life. Then one day you pass away in obscurity. A few old friends sit shiva, but even your children in the city are too busy to care about their late parent, the once great rabbi { }.
-      </p>
+        <p>Inside the smell the dust of death, of loss, of rage and you pick up the ring at the bottom of the box, it's only inhabitant, and slide it on your fingers. Next to the box is a metal candle holder. You pick it up, then you:</p>
+        <form id="form3-4">
+          <label for="page3-4">Go into the night with rage as your only guide, or</label>
+          <input type="radio" name="page3-4" value="1"><br>
+          <label for="page3-4">Attempt to harm yourself so that you don’t harm anyone else?</label>
+          <input type="radio" name="page3-4" value="2"><br>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
+      <div class="page4-1">
+        <p>You get up feeling suddenly energized. Work is forbidden on shabbos, but a brisk walk certainly is not, so you feel perfectly at ease as you step into the chilly evening, and begin pressing into the woods. </p><br>
+        <p>After a few meters, your tzistzis get snagged on a small branch. This startels you, but not so much to derail you from your march deeper and deeper into the forest. </p><br>
+        <p>Almost as if you expected to find someone, you do. It is your youngest sister, soon to be married, crying softly to herself on a stump. Shocked by this discovery, you ask yourself, “what could be the matter?”</p><br>
+        <p>“Rikele mayn Tsiz, what is it, all this fuss?” you say, affectionately. She looks up, somehow knowing that you’d find her, and says “oh nothing could be worse Tatele.” A sarcastic statement, but after a few minutes the truth comes out. She is nervous about her upcoming wedding. </p><br>
+        <p>In this moment, you feel a sudden warmth inside you, as a melody from your youth wriggles its way to the forefront of your mind. Her wedding is just a few days away, but you know now, just what to sing. For now though, do you:
+          </p><br>
+        <form id="form4-1">
+          <label for="page4-1">Walk her to her home with your mother and father, and leave immediately to return and study for a few more minutes,</label>
+          <input type="radio" name="page4-1" value="1"><br>
+          <p>or</p>
+          <label for="page4-1">Stay with her for a while and have some tea?</label>
+          <input type="radio" name="page4-1" value="2"><br>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
+      <div class="page4-2">
+        <p>Your attempt to break the lock is futile, so you end up bringing the box back to your home for further study anyways. As you hold the box you feel a comforting sensation wherever the wood touches you.
+          Your belly is full of butterflies as you cross the threshold to enter your home. You ignore the mezuzah on your door post, perhaps for the first time since you were a boy, with the excitement of the box willing you forward. 
+          
+          As you move towards the dining room to place the box down for study, you trip and hit your head on the corner of the table. Everything blurs and you find yourself waking up, a few hours later, with the box somehow on the top of the table. “Surely it must have fallen to the side like I did” you think.
+          
+          As you steady yourself the impulse to get rid of the box overwhelms you, do you:</p>
+        <form id="form4-2">
+          <label for="page4-2">Get rid of the box immediately, tossing it far down the gorge to the north of your home, or/label>
+          <input type="radio" name="page4-2" value="1"><br>
+          <label for="page4-2">Hold on to the box for continued research.</label>
+          <input type="radio" name="page4-2" value="2"><br>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
+      <div class="page4-3">
+        <p>Despite the clear sense of your surroundings that you maintain, the overwhelming power of the Dybbuk forces you to your feet. You can smell the damp evening air, and feel the cold of the wind as you step into the night, but you can’t stop yourself from moving forward.
+          The sounds of the night whirl about, and as you slowly pace back and force, a villager, Shlomo Ribonowitz, wraps up an evening of celebration with a friend and drunkenly stumbles towards you. 
+          
+          “Our dear Rabbi, what could bring you out in this..” but before Shlomo could finish the sentence, you take the knife and stab it first into his belly, twisting the knife with a sick pleasure, and then slicing his throat, and watching him twitch with satisfaction.
+          
+          The rabbi beneath the knife, beneath the spell of the angry spirit weeps, as the rustling of another villager echoes just a few meters north. Do you:</p>
+        <form id="form4-3">
+          <label for="page4-3">Attack the villager and allow yourself to become completely possessed by the Dybbuk, or</label>
+          <input type="radio" name="page4-3" value="1"><br>
+          <label for="page4-3">Use every ounce of strength left inside you to plunge the knife into your own chest?</label>
+          <input type="radio" name="page4-3" value="2"><br>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
+      <div class="page4-4">
+        <p>The cool night air washes over you like a refreshing glass of summer tea. Your sense of smell is heightened, and with clarity you determine who your targets are. Old friends, who have forgotten you. The children from your youth, now old and tired. 
+          You breathe softly and controlled as you enter the first home. The silent steps of a youthful body carry you towards your first victim. The sound of the candlestick cracking the skull of your old friend Benjamin fills you with pleasure and fear. 
+          
+          Not fear of getting caught, but fear of failure. You can see as clear as the day, despite the depth of darkness which has overtaken the Shtetl you once called you. 
+          
+          The thought of Malke’s death crosses your mind. The kaddish you couldn’t say. The tears you couldn’t shed. The horror and sadness mixes into pain and then erupts again as you strike the next villager, and the next, and the next. 
+          
+          The cries of children awakening to the sounds of skulls cracking and blood dripping awakens a few villagers who enter the night to see what happened. Do you:</p>
+        <form id="form4-4">
+          <label for="page4-4">Attack the villagers as soon as they enter your frame of sight, or</label>
+          <input type="radio" name="page4-4" value="1"><br>
+          <label for="page4-4">Attempt to hide and strike them from the shadows?</label>
+          <input type="radio" name="page4-4" value="2"><br>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
+      <div class="page5-1">
+        <p>A few days later, as your sister is standing beneath the Huppa, you are overwhelmed with emotion. At first you are certain that you are simply happy for your sister and her new husband, but then you realize that the feeling is more than that.</p><br>
+        <p>You have heard of Ibbur’s, or the spirit of another burrowing into one’s body to carry out a good deed, before passing to the next life. Your Bubba Malke must have been the one to plant the melody in your mind a few nights before. It’s all so clear.</p><br>
+        <p>You are shaken from your reverie by the sound of broken glass, and as the congregation begins to sing, you take the lead chanting your bubbe’s favorite psalm, sung the old Galician way, and your sister’s eyes swell up again. </p><br>
+        <p></p>Bubbe Malke’s spirit moves out of your body, and all things are well in the world. </p><br>
+        <p>Based on the choices you’ve made so far in the story, there is definitely 1 computer coding language that is right for you! Click below to find out which one it is!</p><br>
+        <form id="form5-1">
+          <button type="submit" class="btn-dark">Find Out!</button>
+        </form>
+      </div>
+      <div class="page5-2">
+        <p>When you arrive at the top of the gorge to toss the box down, the soft embrace of a spirit takes hold of you, and you can no longer imagine life without this small possession, something that was clearly special to your dear Bubbe Malke, may she rest in peace. 
+          For the rest of your life, you hold on to the Dybbuk box. Nesting it gently atop your own mantle, but things begin to take a turn for the once treasured Rabbi { }, of this small Jewish village. 
+          
+          You start sleeping in at first, and then begin to forget to lay tefillin at least once a week. You lose track of your place during sermons, and trip down stairs. The injuries become so common, that you gabbi ends up leading the sermons most weeks. Your partner becomes ill, as does your first born. 
+          
+          Things are like that for a long time, little things getting in the way of a full life. Then one day you pass away in obscurity. A few old friends sit shiva, but even your children in the city are too busy to care about their late parent, the once great rabbi { }.
+        </p>
+          <p>
+          Based on the choices you’ve made so far in the story, there is definitely 1 computer coding language that is right for you! Click below to find out which one it is!</p>
+        <form id="form5-2">
+          <label for="page5-2">Find out your computer language!</label>
+          <input type="radio" name="page5-2" value="1"><br>
+          <button type="submit" class="btn-dark">Find out!</button>
+        </form>
+      </div>
+      <div class="page5-3">
+        <p>Recognizing the box lying on the floor as a Dybbuk Box, your gabbi (who has spent more time in study of Kabbalah) immediately proceeds to exorcize the demon. 
+          Needing at least ten men for the Minyan, the Gabbi calls out into the night with a severe tone in his voice. The men come to his aid, horrified by the contorting body of their beloved rabbi { }. 
+          
+          After the appropriate blessings and psalms have been recited with a heart full of love for HaShem, and a soul full of Kavanah, the spirit is lifted from your body. 
+          
+          Unfortunately during your rage, the Dybbuk had left your body mangled and bruised. You were taken to a healer a few cities over, but died of internal bleeding before you got there. 
+        </p>
         <p>
-        Based on the choices you’ve made so far in the story, there is definitely 1 computer coding language that is right for you! Click below to find out which one it is!</p>
-      <form id="form5-2">
-        <label for="page5-2">Find out your computer language!</label>
-        <input type="radio" name="page5-2" value="1"><br>
-        <button type="submit" class="btn-dark">Find out!</button>
-      </form>
+          Based on the choices you’ve made so far in the story, there is definitely 1 computer coding language that is right for you! Click below to find out which one it is!
+        </p>
+        <form id="form5-3">
+          <label for="page5-3">option6.3</label>
+          <input type="radio" name="page5-3" value="1"><br>
+          <button type="submit" class="btn-dark">Find Out!</button>
+        </form>
+      </div>
+      <div class="page5-4">
+        <p>
+          You move stealthily behind a small home, covering your body with the shadows, but using your sensitive eyes to take in the scene, and process the notion of a search party. When someone gets too close, you crack their skull and move behind another home. Silently, in the darkness. 
+          With each death your strength increases, and soon blood pours from the mouths of men who even approach you. Women in a rage to defend their family, throw chairs and knives at their once beloved Rabbi, but fail to slow the carnage. You pull the eyes directly out of one woman as she approaches you in tears.
+          
+          Upon seeing the magnitude of your power, the Gabbi attempts to evacuate the surviving villagers, but in your fury you find the strength and power to set the homes, and the nearby forest itself ablaze. 
+          
+          Bright red and orange flames flicker beneath a cloud of dark blue smoke. Below the canope of the trees, the screams and cries of an entire village can be heard, until it all goes silent. 
+          
+          Lost in the negative feedback loop of your power and rage, you realize that you have created fire all around you, and after a time, Rabbi { }, and the Dybbuk, perish alongside their beloved village.
+        </p>
+        <p>
+          Based on the choices you’ve made so far in the story, there is definitely 1 computer coding language that is right for you! Click below to find out which one it is!
+        </p>
+        <form id="form5-4">
+          <label for="page5-4">option6.4</label>
+          <input type="radio" name="page5-4" value="1"><br>
+          <button type="submit" class="btn-dark">Find Out!</button>
+        </form>
+      </div>
+      <div id="output1" class="result">
+        <h2>You should learn Ruby!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Nunc lobortis mattis aliquam faucibus. Tortor vitae purus faucibus ornare suspendisse. Ipsum dolor sit amet consectetur. Amet commodo nulla facilisi nullam vehicula ipsum. Ornare lectus sit amet est placerat in. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Vel quam elementum pulvinar etiam.
+        </p><br>
+        <p>Sed felis eget velit aliquet sagittis id consectetur purus ut. Bibendum est ultricies integer quis. Gravida rutrum quisque non tellus. Accumsan tortor posuere ac ut consequat. Suspendisse in est ante in nibh mauris. Hendrerit gravida rutrum quisque non tellus. Blandit volutpat maecenas volutpat blandit aliquam etiam erat. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Amet mattis vulputate enim nulla. Quis auctor elit sed vulputate mi sit amet mauris commodo. Pellentesque pulvinar pellentesque habitant morbi tristique. Gravida quis blandit turpis cursus in hac habitasse. Adipiscing elit duis tristique sollicitudin nibh sit amet. Tempus egestas sed sed risus pretium. In vitae turpis massa sed. In eu mi bibendum neque egestas congue quisque egestas. Lectus proin nibh nisl condimentum id venenatis a condimentum. Varius vel pharetra vel turpis nunc. Fringilla ut morbi tincidunt augue interdum velit euismod in.</p><br>
+        <form class="restart">
+          <button class="btn-dark">Home Page</button>
+        </form>
+      </div>
+      <div id="output2" class="result">
+        <h2>You should Learn C sharp!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Nunc lobortis mattis aliquam faucibus. Tortor vitae purus faucibus ornare suspendisse. Ipsum dolor sit amet consectetur. Amet commodo nulla facilisi nullam vehicula ipsum. Ornare lectus sit amet est placerat in. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Vel quam elementum pulvinar etiam.
+        </p><br>
+        <p>Sed felis eget velit aliquet sagittis id consectetur purus ut. Bibendum est ultricies integer quis. Gravida rutrum quisque non tellus. Accumsan tortor posuere ac ut consequat. Suspendisse in est ante in nibh mauris. Hendrerit gravida rutrum quisque non tellus. Blandit volutpat maecenas volutpat blandit aliquam etiam erat. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Amet mattis vulputate enim nulla. Quis auctor elit sed vulputate mi sit amet mauris commodo. Pellentesque pulvinar pellentesque habitant morbi tristique. Gravida quis blandit turpis cursus in hac habitasse. Adipiscing elit duis tristique sollicitudin nibh sit amet. Tempus egestas sed sed risus pretium. In vitae turpis massa sed. In eu mi bibendum neque egestas congue quisque egestas. Lectus proin nibh nisl condimentum id venenatis a condimentum. Varius vel pharetra vel turpis nunc. Fringilla ut morbi tincidunt augue interdum velit euismod in.</p><br>
+        <form class="restart">
+          <button class="btn-dark">Home Page</button>
+        </form>
+      </div>
+      <div id="output4" class="result">
+        <h2>you should learn JavaScript!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Nunc lobortis mattis aliquam faucibus. Tortor vitae purus faucibus ornare suspendisse. Ipsum dolor sit amet consectetur. Amet commodo nulla facilisi nullam vehicula ipsum. Ornare lectus sit amet est placerat in. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Vel quam elementum pulvinar etiam.
+        </p><br>
+        <p>Sed felis eget velit aliquet sagittis id consectetur purus ut. Bibendum est ultricies integer quis. Gravida rutrum quisque non tellus. Accumsan tortor posuere ac ut consequat. Suspendisse in est ante in nibh mauris. Hendrerit gravida rutrum quisque non tellus. Blandit volutpat maecenas volutpat blandit aliquam etiam erat. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Amet mattis vulputate enim nulla. Quis auctor elit sed vulputate mi sit amet mauris commodo. Pellentesque pulvinar pellentesque habitant morbi tristique. Gravida quis blandit turpis cursus in hac habitasse. Adipiscing elit duis tristique sollicitudin nibh sit amet. Tempus egestas sed sed risus pretium. In vitae turpis massa sed. In eu mi bibendum neque egestas congue quisque egestas. Lectus proin nibh nisl condimentum id venenatis a condimentum. Varius vel pharetra vel turpis nunc. Fringilla ut morbi tincidunt augue interdum velit euismod in.</p><br>
+        <form class="restart">
+          <button class="btn-dark">Home Page</button>
+        </form>
+      </div>
     </div>
-
-    <div class="page5-3">
-      <p>Recognizing the box lying on the floor as a Dybbuk Box, your gabbi (who has spent more time in study of Kabbalah) immediately proceeds to exorcize the demon. 
-
-        Needing at least ten men for the Minyan, the Gabbi calls out into the night with a severe tone in his voice. The men come to his aid, horrified by the contorting body of their beloved rabbi { }. 
-        
-        After the appropriate blessings and psalms have been recited with a heart full of love for HaShem, and a soul full of Kavanah, the spirit is lifted from your body. 
-        
-        Unfortunately during your rage, the Dybbuk had left your body mangled and bruised. You were taken to a healer a few cities over, but died of internal bleeding before you got there. 
-      </p>
-      <p>
-        Based on the choices you’ve made so far in the story, there is definitely 1 computer coding language that is right for you! Click below to find out which one it is!
-      </p>
-      <form id="form5-3">
-        <label for="page5-3">option6.3</label>
-        <input type="radio" name="page5-3" value="1"><br>
-        <button type="submit" class="btn-dark">Find Out!</button>
-      </form>
-    </div>
-
-    <div class="page5-4">
-      <p>
-        You move stealthily behind a small home, covering your body with the shadows, but using your sensitive eyes to take in the scene, and process the notion of a search party. When someone gets too close, you crack their skull and move behind another home. Silently, in the darkness. 
-
-        With each death your strength increases, and soon blood pours from the mouths of men who even approach you. Women in a rage to defend their family, throw chairs and knives at their once beloved Rabbi, but fail to slow the carnage. You pull the eyes directly out of one woman as she approaches you in tears.
-        
-        Upon seeing the magnitude of your power, the Gabbi attempts to evacuate the surviving villagers, but in your fury you find the strength and power to set the homes, and the nearby forest itself ablaze. 
-        
-        Bright red and orange flames flicker beneath a cloud of dark blue smoke. Below the canope of the trees, the screams and cries of an entire village can be heard, until it all goes silent. 
-        
-        Lost in the negative feedback loop of your power and rage, you realize that you have created fire all around you, and after a time, Rabbi { }, and the Dybbuk, perish alongside their beloved village.
-      </p>
-      <p>
-        Based on the choices you’ve made so far in the story, there is definitely 1 computer coding language that is right for you! Click below to find out which one it is!
-      </p>
-      <form id="form5-4">
-        <label for="page5-4">option6.4</label>
-        <input type="radio" name="page5-4" value="1"><br>
-        <button type="submit" class="btn-dark">Find Out!</button>
-      </form>
-    </div>
-    <div id="output1" class="result">
-      <h2>You should learn Ruby!</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Nunc lobortis mattis aliquam faucibus. Tortor vitae purus faucibus ornare suspendisse. Ipsum dolor sit amet consectetur. Amet commodo nulla facilisi nullam vehicula ipsum. Ornare lectus sit amet est placerat in. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Vel quam elementum pulvinar etiam.
-      </p><br>
-      <p>Sed felis eget velit aliquet sagittis id consectetur purus ut. Bibendum est ultricies integer quis. Gravida rutrum quisque non tellus. Accumsan tortor posuere ac ut consequat. Suspendisse in est ante in nibh mauris. Hendrerit gravida rutrum quisque non tellus. Blandit volutpat maecenas volutpat blandit aliquam etiam erat. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Amet mattis vulputate enim nulla. Quis auctor elit sed vulputate mi sit amet mauris commodo. Pellentesque pulvinar pellentesque habitant morbi tristique. Gravida quis blandit turpis cursus in hac habitasse. Adipiscing elit duis tristique sollicitudin nibh sit amet. Tempus egestas sed sed risus pretium. In vitae turpis massa sed. In eu mi bibendum neque egestas congue quisque egestas. Lectus proin nibh nisl condimentum id venenatis a condimentum. Varius vel pharetra vel turpis nunc. Fringilla ut morbi tincidunt augue interdum velit euismod in.</p><br>
-      <form class="restart">
-        <button class="btn-dark">Home Page</button>
-      </form>
-    </div>
-    <div id="output2" class="result">
-      <h2>You should Learn C sharp!</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Nunc lobortis mattis aliquam faucibus. Tortor vitae purus faucibus ornare suspendisse. Ipsum dolor sit amet consectetur. Amet commodo nulla facilisi nullam vehicula ipsum. Ornare lectus sit amet est placerat in. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Vel quam elementum pulvinar etiam.
-      </p><br>
-      <p>Sed felis eget velit aliquet sagittis id consectetur purus ut. Bibendum est ultricies integer quis. Gravida rutrum quisque non tellus. Accumsan tortor posuere ac ut consequat. Suspendisse in est ante in nibh mauris. Hendrerit gravida rutrum quisque non tellus. Blandit volutpat maecenas volutpat blandit aliquam etiam erat. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Amet mattis vulputate enim nulla. Quis auctor elit sed vulputate mi sit amet mauris commodo. Pellentesque pulvinar pellentesque habitant morbi tristique. Gravida quis blandit turpis cursus in hac habitasse. Adipiscing elit duis tristique sollicitudin nibh sit amet. Tempus egestas sed sed risus pretium. In vitae turpis massa sed. In eu mi bibendum neque egestas congue quisque egestas. Lectus proin nibh nisl condimentum id venenatis a condimentum. Varius vel pharetra vel turpis nunc. Fringilla ut morbi tincidunt augue interdum velit euismod in.</p><br>
-      <form class="restart">
-        <button class="btn-dark">Home Page</button>
-      </form>
-    </div>
-    </div>
-    <div id="output4" class="result">
-      <h2>you should learn JavaScript!</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Nunc lobortis mattis aliquam faucibus. Tortor vitae purus faucibus ornare suspendisse. Ipsum dolor sit amet consectetur. Amet commodo nulla facilisi nullam vehicula ipsum. Ornare lectus sit amet est placerat in. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Vel quam elementum pulvinar etiam.
-      </p><br>
-      <p>Sed felis eget velit aliquet sagittis id consectetur purus ut. Bibendum est ultricies integer quis. Gravida rutrum quisque non tellus. Accumsan tortor posuere ac ut consequat. Suspendisse in est ante in nibh mauris. Hendrerit gravida rutrum quisque non tellus. Blandit volutpat maecenas volutpat blandit aliquam etiam erat. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Amet mattis vulputate enim nulla. Quis auctor elit sed vulputate mi sit amet mauris commodo. Pellentesque pulvinar pellentesque habitant morbi tristique. Gravida quis blandit turpis cursus in hac habitasse. Adipiscing elit duis tristique sollicitudin nibh sit amet. Tempus egestas sed sed risus pretium. In vitae turpis massa sed. In eu mi bibendum neque egestas congue quisque egestas. Lectus proin nibh nisl condimentum id venenatis a condimentum. Varius vel pharetra vel turpis nunc. Fringilla ut morbi tincidunt augue interdum velit euismod in.</p><br>
-      <form class="restart">
-        <button class="btn-dark">Home Page</button>
-      </form>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
