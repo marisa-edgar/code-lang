@@ -18,6 +18,8 @@ $(document).ready(function(){
     } else if (page1 === "2"){
       total += 2;
       $(".page2-2").show();
+    } else {
+      $('#error').show();
     };
   });
 
@@ -31,6 +33,8 @@ $(document).ready(function(){
     } else if (twoOne === "2") {
       total += 2;
       $(".page3-2").show();
+    } else {
+      $('#error').show();
     };
   });
 
@@ -44,6 +48,8 @@ $(document).ready(function(){
     } else if (twoTwo === "2") {
       total += 2;
       $(".page3-4").show();
+    } else {
+      $('#error').show();
     };
   });
 
@@ -57,6 +63,8 @@ $(document).ready(function(){
     } else if (threeOne === "2") {
       total += 2;
       $(".page4-1").show();
+    } else {
+      $('#error').show();
     };
   });
 
@@ -70,6 +78,8 @@ $(document).ready(function(){
     } else if (threeTwo === "2") {
       total += 2;
       $(".page4-2").show();
+    } else {
+      $('#error').show();
     };
   });
 
@@ -83,6 +93,8 @@ $(document).ready(function(){
     } else if (threeThree === "2") {
       total += 2;
       $(".page4-3").show();
+    } else {
+      $('#error').show();
     };
   });
 
@@ -96,6 +108,8 @@ $(document).ready(function(){
     } else if (threeFour === "2") {
       total += 2;
       $(".page4-4").show();
+    } else {
+      $('#error').show();
     };
   });
 
@@ -109,6 +123,8 @@ $(document).ready(function(){
     } else if (fourOne === "2") {
       total ++;
       $(".page5-1").show();
+    } else {
+      $('#error').show();
     };
   });
 
@@ -122,6 +138,8 @@ $(document).ready(function(){
     } else if (fourTwo === "2") {
       total += 50;
       $(".page5-2").show();
+    } else {
+      $('#error').show();
     };
   });
 
@@ -135,6 +153,8 @@ $(document).ready(function(){
     } else if (fourThree === "2") {
       total += 150;
       $(".page5-3").show();
+    } else {
+      $('#error').show();
     };
   });
 
@@ -148,6 +168,8 @@ $(document).ready(function(){
     } else if (fourFour === "2") {
       total += 300;
       $(".page5-4").show();
+    } else {
+      $('#error').show();
     };
   });
 

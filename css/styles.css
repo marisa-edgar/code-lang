@@ -15,22 +15,6 @@ body {
 .page {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-/* .background1 {
-  border: solid #ede6da 2px;
-  padding: 100px;
-  margin: 10px;
-  height: 2000px;
-  background-color: rgba(0,0,0,.5);
-  color: #000;
-  background-image: url("../img/shtetl.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  font-size: 24pt;
-  text-align: left;
-  text-align: justify;
-  background-attachment: static;
-}  */
 
 .page1 {
   display:none;
