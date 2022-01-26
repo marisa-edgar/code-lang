@@ -35,4 +35,6 @@ _Any questions or concerns contact Marisa Edgar at marisaedgar1212@gmail.com_
 
 MIT
 
+Licensed under [MIT](LICENSE)
+
 Copyright (c) _2022_ _Marisa Edgar_
